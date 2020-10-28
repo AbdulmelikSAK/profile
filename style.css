@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+@media (max-width: 1960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 200px;
+  }
+}
+
+
+i {
+  color: rgba(20,20,20,0.1);
+}
+
+img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+
+body {
+  font-family: Ruboto, sans-serif;
+  background-color: #F7F9FC;
+}
+
+h2 {
+  color:#7ECE90;
+  font-size: 20px;
+}
+
+p {
+  color: #575F7D;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+h1{
+  color: #575F7D;
+  margin-top: 20px;
+  font-weight: 900;
+}
+
+div {
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.btn-contact {
+  font-weight: bold;
+  color: white;
+  background-color: #6B72E1;
+  border-radius: 5px;
+  padding: 15px 20px;
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+.btn-contact:hover {
+  background-color: black;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  margin: 40px auto;
+  padding: 40px 100px 20px 100px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.1)
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.logo-taille {
+  font-size: 40px;
+}
